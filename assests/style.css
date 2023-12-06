@@ -11,5 +11,30 @@ h1 {
   color: rgb(172, 255, 255);
   font-size: 280%;
 }
+input {
+  border-radius: 8px;
+  width: 40%;
+  height: 30px;
+  margin: 0.7%;
+}
+main {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-size: 120%;
+  text-align: center;
+  color: brown;
+  margin-top: 3%;
+}
+#button {
+}
 #elencoSalvato {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  color: rgb(0, 0, 154);
+  background-color: rgb(42, 165, 61);
+  border-radius: 30px;
+  padding: 1%;
 }

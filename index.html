@@ -12,18 +12,40 @@
     </header>
     <main>
       <form action="" id="main-form">
-        <label for="date">DATA</label>
-        <input id="date" placeholder="" required type="date" />
-        <label for="practice">ESERCIZI PRATICI</label>
-        <input id="practice" placeholder="" required />
-        <label for="study">ORE DI STUDIO</label>
-        <input id="study" placeholder="" required />
-        <label for="sport">MINUTI ATTIVITà FISICA</label>
-        <input id="sport" placeholder="" required type="number" />
-        <label for="animals">CIBO AD ANIMALI</label>
-        <input id="animals" placeholder="" required />
-        <button>INVIA</button>
-        <button type="reset">RESET</button>
+        <div>
+          <label for="date">DATA</label>
+          <input id="date" type="date" />
+          <button onclick="dataa()">INVIA</button>
+        </div>
+        <div>
+          <label for="practice">ESERCIZI PRATICI</label>
+          <input id="practice" placeholder="pratica" />
+          <button onclick="eserciziPratici()">INVIA</button>
+        </div>
+        <div>
+          <label for="study">ORE DI STUDIO</label>
+          <input id="study" placeholder="ore di studio" type="number" />
+          <button onclick="studyy()">INVIA</button>
+        </div>
+        <div>
+          <label for="sport">MINUTI ATTIVITà FISICA</label>
+          <input
+            id="sport"
+            placeholder="minuti di attività fisica"
+            type="number"
+          />
+          <button onclick="sportt()">INVIA</button>
+        </div>
+        <div>
+          <label for="animals">CIBO AD ANIMALI</label>
+          <input
+            id="animals"
+            placeholder="cibo animali o eventuali problemi"
+            type="text"
+          />
+          <button onclick="animall()">INVIA</button>
+        </div>
+        <!-- <button type="reset">RESET</button> -->
       </form>
       <section id="elencoSalvato"></section>
     </main>
