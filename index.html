@@ -11,43 +11,17 @@
       <h1>TO-DO LIST</h1>
     </header>
     <main>
-      <form action="" id="main-form">
+      <form id="main-form">
         <div>
           <label for="date">DATA</label>
-          <input id="date" type="date" />
+          <input id="date" type="text" />
           <button>INVIA</button>
         </div>
         <div>
-          <label for="practice">ESERCIZI PRATICI</label>
-          <input id="practice" placeholder="pratica" />
-          <button>INVIA</button>
+          <!-- <button type="reset">RESET</button> -->
+          <section onclick="hideStr()" id="elencoSalvato"></section>
         </div>
-        <div>
-          <label for="study">ORE DI STUDIO</label>
-          <input id="study" placeholder="ore di studio" type="number" />
-          <button>INVIA</button>
-        </div>
-        <div>
-          <label for="sport">MINUTI ATTIVITà FISICA</label>
-          <input
-            id="sport"
-            placeholder="minuti di attività fisica"
-            type="number"
-          />
-          <button>INVIA</button>
-        </div>
-        <div>
-          <label for="animals">CIBO AD ANIMALI</label>
-          <input
-            id="animals"
-            placeholder="cibo animali o eventuali problemi"
-            type="text"
-          />
-          <button>INVIA</button>
-        </div>
-        <!-- <button type="reset">RESET</button> -->
       </form>
-      <section id="elencoSalvato"></section>
     </main>
     <footer></footer>
     <script src="./js/index.js"></script>

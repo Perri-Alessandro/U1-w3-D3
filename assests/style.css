@@ -1,5 +1,6 @@
 body {
   background-color: antiquewhite;
+  margin-top: -25px;
 }
 h1 {
   margin-top: 2%;
@@ -37,4 +38,5 @@ main {
   background-color: rgb(42, 165, 61);
   border-radius: 30px;
   padding: 1%;
-}
+  /* text-decoration: line-through; */
+  text-decoration: underline;
